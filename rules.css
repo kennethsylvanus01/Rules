@@ -225,3 +225,37 @@ line-height: 36px;
 .Mapwrite{
     width: 50%;
 }
+
+/*Pricing*/
+.price{
+    background-color: #F8F8F8;
+    text-align: center;
+}
+.price h3{
+    padding-top: 50px;
+}
+.price p{
+    padding-top: 20px;
+}
+.priceholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-content: center;
+}
+aside p{
+    padding-bottom: 20px;
+}
+.pricelist1{
+    background: #FFFFFF;
+box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+border-radius: 3px;
+padding: 50px;
+}
