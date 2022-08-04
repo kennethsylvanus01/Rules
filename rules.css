@@ -432,7 +432,7 @@ aside button {
     text-align: center;
     padding: 25px;
     margin-top: 20px;
-    padding-bottom: 12%git;
+    padding-bottom: 12%;
 }
 
 /*rectangle*/
@@ -491,7 +491,15 @@ aside button {
     /* gap: 18px; */
     margin-left: 60px;
     padding-left: 35px;
+}
 
+.focusrect li {
+    font-family: PT Serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
 }
 
 .cus {
@@ -513,4 +521,20 @@ aside button {
     line-height: 36px;
     letter-spacing: 0px;
     text-align: left;
+}
+
+.sent {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
 }
