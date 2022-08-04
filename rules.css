@@ -1,26 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap");
 
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  /* list-style-type: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* list-style-type: none;
   text-decoration: none; */
 }
 
 body {
     font-family: Montserrat;
-    justify-content: center;
-    align-items: center;
 }
-  
-.container{
-    background-color:  #0B162B;
+
+h2 {
+    color: pink;
+}
+
+.container {
+    background-color: #0B162B;
     width: 100%;
     height: 100%;
 }
 
-header nav{
+header nav {
     display: flex;
     justify-content: space-between;
     padding: 3em;
@@ -30,90 +32,100 @@ header nav{
     /* background: khaki; */
 }
 
-.btn{
-    padding:7px 21px;
+.btn {
+    padding: 7px 21px;
     background-color: rgb(147, 147, 247);
     border: none;
     border-radius: 3px;
 }
 
-.containerlink{
+.containerlink {
     z-index: 1;
     margin-right: 12%;
     align-content: space-around;
 }
 
-.containerlink a{
+.containerlink a {
     font-family: Montserrat;
-font-size: 18px;
-font-weight: 500;
-text-align: left;
-color: #fff;
-text-decoration: none;
-margin: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    color: #fff;
+    text-decoration: none;
+    margin: 20px;
 }
 
-.section1{
-    background-color:  #0B162B;
-    display: flex; 
+.section1 {
+    background-color: #0B162B;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     /* max-height: 400px; */
     padding: 3em 0 0 3em;
 }
 
-.hero{
+.hero {
     /* height: 647px; */
     /* width: 690px; */
     /* border-radius: 0px; */
     /* margin: 200px; */
 }
-.you img{
-width: 100%;
-height: auto;
-transform: translateY(-175px);
-z-index: 1;
+
+.you img {
+    width: 100%;
+    height: auto;
+    transform: translateY(-175px);
+    z-index: 1;
 }
 
-.hero h1{
-color: #FFFFFF;
-font-family: Montserrat;
-/* font-size: 42px; */
-font-weight: 700;
-/* line-height: 20px; */
+.hero h1 {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    /* font-size: 42px; */
+    font-weight: 700;
+    /* line-height: 20px; */
 }
 
-.hero p{
+.hero p {
     font-family: PT Serif;
-font-size: 19px;
-font-weight: 400;
-line-height: 36px;
-color: #FFFFFF;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #FFFFFF;
 }
 
-.hero input{
+.custom-field{
+    display: flex;
+    gap: 14%;
+}
+
+.hero input {
     border: none;
     /* appearance: none; */
-    background:#5558DB;
+    background: #5558DB;
     padding: 13px;
     border-radius: 9px;
+    width: 330px;
     height: 44px;
-/* width: 61%;  */
+    /* width: 61%;  */
 }
 
-.hero button{
-    background:#5558DB;
-    padding: 12px 25px;
+.hero button {
+    background: #5558DB;
+    /* padding: 12px 25px; */
+    border: none;
+    color: #FFFFFF;
+    width: 130px;
 }
 
-.ptag{
+.ptag {
     font-family: PT Serif;
-font-size: 19px;
-font-weight: 400;
-line-height: 36px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 36px;
 }
 
-.you{
+.you {
     /* z-index: 0; */
     /* background-image: url(./Background.png);
     background-position: center;
@@ -122,21 +134,21 @@ line-height: 36px;
 }
 
 /*News logo Section*/
-.newslogo{
+.newslogo {
     padding: 20px 50px;
     max-width: 100%;
     max-height: 100%;
     /* background-color: darkgoldenrod; */
 }
 
-.newslogo img{
+.newslogo img {
     width: 100%;
     height: 10%;
     padding: 15px 9%;
 }
 
 /* Features Section */
-.features{
+.features {
     display: flex;
     /* margin: 6px 15%; */
     /* border: 13px solid red; */
@@ -145,19 +157,19 @@ line-height: 36px;
     /* padding: 5%; */
 }
 
-.featuresdiv{
+.featuresdiv {
     margin: 10% 3%;
     text-align: center;
     max-width: 450px;
     max-height: 266px;
 }
 
-.featuresdiv h3{
+.featuresdiv h3 {
     font-size: 31px;
     margin-top: 30px;
 }
 
-.featurex{
+.featurex {
     padding: px;
     max-width: 50px;
     position: relative;
@@ -165,13 +177,13 @@ line-height: 36px;
     align-items: center;
 }
 
-.featuresdiv p{
+.featuresdiv p {
     font-size: 15px;
     margin-top: 22px;
 }
 
 /*Laptop Section*/
-.Laptop{
+.Laptop {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -179,27 +191,48 @@ line-height: 36px;
     gap: 20px;
 }
 
-.Laptopx{
+.Laptopx {
     /* border: 2px solid blue;
     width: 100%;
     h */
+    margin-left: 14%;
 }
 
-.Laptopx img{
+.Laptopx img {
     margin-left: 20px;
-    width: 100%;
+    width: 80%;
     height: auto;
-
 }
 
-.Laptopwrite{
+.Laptopwrite {
     width: 50%;
     /* max-width: 100%; */
     /* max-height: 100%; */
 }
 
+.Laptopwrite h3 {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.Laptopwrite p {
+    padding-top: 13px;
+    padding-bottom: 23px;
+}
+
+.Laptopwrite button {
+    background-color: #5558DB;
+    border: none;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    color: #fff;
+}
+
 /*Map*/
-.Map{
+.Map {
     /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
@@ -208,7 +241,7 @@ line-height: 36px;
     gap: 20px;
 }
 
-.Map img{
+.Map img {
     /* margin-right: 20px; */
     width: 100%;
     height: auto;
@@ -218,44 +251,190 @@ line-height: 36px;
 
 /**/
 
-.Maptx{
+.Maptx {
     margin-right: -3%;
 }
 
-.Mapwrite{
+.Mapwrite {
     width: 50%;
 }
 
+
+.Maph3 {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.Mapwrite p {
+    padding-top: 28px;
+    font-family: PT Serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.Mapwrite button {
+    background-color: #5558DB;
+    margin-top: 15px;
+    border: none;
+    padding: 10px 30px;
+    width: 200px;
+    border-radius: 3px;
+    color: #fff;
+}
+
 /*Pricing*/
-.price{
+.price {
     background-color: #F8F8F8;
     text-align: center;
 }
-.price h3{
+
+.price h3 {
     padding-top: 50px;
 }
-.price p{
+
+.price p {
     padding-top: 20px;
 }
-.priceholder{
+
+.priceholder {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
 }
-aside{
+
+aside {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
     align-content: center;
 }
-aside p{
+
+aside p {
     padding-bottom: 20px;
 }
-.pricelist1{
+
+.pricelist1 {
     background: #FFFFFF;
-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
-border-radius: 3px;
-/* padding: 50px; */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    padding: 50px;
+}
+
+.pricelist1 .cellprice {
+    background-color: #5558DB;
+    border: none;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.shape {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid red;
+}
+
+.shape span img {
+    width: 20px;
+    /* height: 20px; */
+    border: 3px solid red;
+}
+
+.shape span {
+    display: flex;
+    gap: 12px;
+    padding: 14px;
+    justify-content: center;
+}
+
+/*rectangle*/
+
+.rectangle {
+    background-color: #0B162B;
+}
+
+.rectangleinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14%;
+}
+
+.lien {}
+
+.rect1 {
+    padding-top: 52px;
+}
+
+.rect2 {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-content: center;
+    padding-top: 33px;
+}
+
+.rect1 h2 {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #fff;
+}
+
+.rect1 p {
+    color: #F8F8F8;
+}
+
+.peace {}
+
+/* rectfocus */
+.rectfocus {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+}
+
+.focusrect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 18px; */
+    margin-left: 60px;
+    padding-left: 35px;
+
+}
+
+.cus {
+    margin: auto 30px;
+    /* border: 2px solid red; */
+}
+
+.cus1 {
+    margin: auto 0px;
+
+}
+
+.cus li {
+    list-style-type: none;
+    color: #FFFFFF;
+    font-family: PT Serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
 }
