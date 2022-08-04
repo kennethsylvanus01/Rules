@@ -12,10 +12,6 @@ body {
     font-family: Montserrat;
 }
 
-h2 {
-    color: pink;
-}
-
 .container {
     background-color: #0B162B;
     width: 100%;
@@ -94,9 +90,18 @@ header nav {
     color: #FFFFFF;
 }
 
-.custom-field{
+.custom-field {
     display: flex;
     gap: 14%;
+}
+
+.amend {
+    font-family: PT Serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    padding-top: 13px;
 }
 
 .hero input {
@@ -104,7 +109,7 @@ header nav {
     /* appearance: none; */
     background: #5558DB;
     padding: 13px;
-    border-radius: 9px;
+    border-radius: 4px;
     width: 330px;
     height: 44px;
     /* width: 61%;  */
@@ -118,11 +123,18 @@ header nav {
     width: 130px;
 }
 
+.tagpp {
+    display: flex;
+    margin-top: 50%;
+
+}
+
 .ptag {
     font-family: PT Serif;
     font-size: 19px;
     font-weight: 400;
     line-height: 36px;
+    margin-left: 14px;
 }
 
 .you {
@@ -248,9 +260,6 @@ header nav {
     /* border: 2px solid seagreen; */
 }
 
-
-/**/
-
 .Maptx {
     margin-right: -3%;
 }
@@ -258,7 +267,6 @@ header nav {
 .Mapwrite {
     width: 50%;
 }
-
 
 .Maph3 {
     font-family: Montserrat;
@@ -295,13 +303,23 @@ header nav {
     text-align: center;
 }
 
-.price h3 {
-    padding-top: 50px;
+.price .plex {
+    padding-top: 10%;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
 }
 
-.price p {
-    padding-top: 20px;
+.price .lex {
+    font-family: PT Serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
 }
+
 
 .priceholder {
     display: flex;
@@ -318,8 +336,54 @@ aside {
     align-content: center;
 }
 
-aside p {
-    padding-bottom: 20px;
+aside button {
+    background-color: #5558DB;
+    border: none;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding: 10px 15px;
+    /* padding-bottom: 20px; */
+}
+
+.aside p {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: right;
+}
+
+.pricelisth3 {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.pricelisth2 {
+    font-family: Montserrat;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 90px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.pricelistp {
+    font-family: PT Serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center;
 }
 
 .pricelist1 {
@@ -333,21 +397,24 @@ aside p {
     background-color: #5558DB;
     border: none;
     padding: 10px;
-    width: 200px;
-    border-radius: 5px;
+    height: 60px;
+    width: 350px;
     color: #fff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
 }
 
 .shape {
     display: flex;
     flex-direction: column;
-    border: 3px solid red;
 }
 
 .shape span img {
     width: 20px;
     /* height: 20px; */
-    border: 3px solid red;
 }
 
 .shape span {
@@ -355,6 +422,17 @@ aside p {
     gap: 12px;
     padding: 14px;
     justify-content: center;
+}
+
+.lastp {
+    font-family: PT Serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    padding: 25px;
+    margin-top: 20px;
+    margin-bottom: 13%;
 }
 
 /*rectangle*/
@@ -370,7 +448,6 @@ aside p {
     gap: 14%;
 }
 
-.lien {}
 
 .rect1 {
     padding-top: 52px;
@@ -398,7 +475,6 @@ aside p {
     color: #F8F8F8;
 }
 
-.peace {}
 
 /* rectfocus */
 .rectfocus {
