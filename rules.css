@@ -12,6 +12,25 @@ body {
     font-family: Montserrat;
 }
 
+
+/*testing*/
+.first {
+    display: flex;
+    background-color: #0B162B;
+}
+
+.ail {
+    background-image: url("./Background.png");
+    padding: 17em 10em;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 10.3%;
+    background-size: contain;
+    background-position: right;
+}
+
+
+/*testing*/
 .container {
     background-color: #0B162B;
     width: 100%;
@@ -26,6 +45,7 @@ header nav {
     /* width: 100%; */
     /* height: auto; */
     /* background: khaki; */
+    z-index: 6;
 }
 
 .btn {
@@ -36,9 +56,12 @@ header nav {
 }
 
 .containerlink {
-    z-index: 1;
+    /* z-index: 1; */
+    position: absolute;
     margin-right: 12%;
     align-content: space-around;
+    top: 0;
+    right: 10%;
 }
 
 .containerlink a {
@@ -68,10 +91,13 @@ header nav {
 }
 
 .you img {
-    width: 100%;
-    height: auto;
+    width: 50%;
+    height: 147%;
     transform: translateY(-175px);
     z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .hero h1 {
@@ -126,7 +152,6 @@ header nav {
 .tagpp {
     display: flex;
     margin-top: 50%;
-
 }
 
 .ptag {
@@ -147,19 +172,77 @@ header nav {
 
 /*News logo Section*/
 .newslogo {
-    padding: 20px 50px;
+    width: 100%;
     max-width: 100%;
-    max-height: 100%;
+    padding: 3% 0%;
+    /* margin: 0 auto; */
     /* background-color: darkgoldenrod; */
 }
 
 .newslogo img {
     width: 100%;
     height: 10%;
-    padding: 15px 9%;
+    /* margin-left: 11%; */
+    padding: 1px 160px;
 }
 
 /* Features Section */
+/*testing*/
+.carter {
+    /* border: 2px solid green; */
+    width: 100%;
+    padding-top: 5%;
+    padding-left: 16%;
+    padding-bottom: 4%;
+    position: relative;
+}
+
+.flex- {
+    /* width: 100%; */
+    /* height: 350px; */
+    /* margin: 25px; */
+    gap: 12px;
+    display: flex;
+    position: relative;
+    right: 8%;
+}
+
+.mugan {
+    /* margin: 15px; */
+    height: 266px;
+    width: 350px;
+    overflow: hidden;
+    text-align: center;
+    /* margin-left: 13%; */
+}
+
+.mugan h3 {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.mugan p {
+    font-family: PT Serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.gan {
+    /* position: relative;
+    left:47%;
+    top:8%; */
+    margin-top: 12px;
+    text-align: center;
+}
+
+/*testing*/
+
 .features {
     display: flex;
     /* margin: 6px 15%; */
@@ -170,10 +253,11 @@ header nav {
 }
 
 .featuresdiv {
-    margin: 10% 3%;
+    margin: 10% 3px;
     text-align: center;
-    max-width: 450px;
+    max-width: 300px;
     max-height: 266px;
+    margin-left: 6%;
 }
 
 .featuresdiv h3 {
@@ -195,12 +279,24 @@ header nav {
 }
 
 /*Laptop Section*/
-.Laptop {
+/*testing*/
+.Layout__Constraint {
+    /* width: 100%; */
+    /* max-width: 90%; */
+    margin: 0 auto;
+    padding-right: 12%;
     display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+
+/*testing*/
+.Laptop {
+    /* display: flex; */
     justify-content: space-between;
     align-items: center;
-    padding: 50px 50px;
-    gap: 20px;
+    padding: 100px 50px;
+    gap: 60px;
     background: #F8F8F8;
 }
 
@@ -209,12 +305,15 @@ header nav {
     width: 100%;
     h */
     margin-left: 14%;
+    /* background-color: aqua; */
 }
 
 .Laptopx img {
-    margin-left: 20px;
-    width: 80%;
+    /* margin-right: 40%; */
+    width: 100%;
     height: auto;
+    position: relative;
+    right: 12%;
 }
 
 .Laptopwrite {
@@ -225,23 +324,32 @@ header nav {
 
 .Laptopwrite h3 {
     font-family: Montserrat;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 60px;
+    margin-top: 14px;
 }
 
 .Laptopwrite p {
-    padding-top: 13px;
+    padding-top: 10px;
     padding-bottom: 23px;
+    font-size: 14px;
 }
 
 .Laptopwrite button {
     background-color: #5558DB;
     border: none;
-    padding: 10px;
-    width: 200px;
-    border-radius: 5px;
+    /* padding: 10px 16px; */
+    height: 60px;
+    width: 300px;
     color: #fff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+    /* margin-left: 72px; */
+    margin-top: 4px;
 }
 
 /*Map*/
@@ -251,14 +359,16 @@ header nav {
     justify-content: space-between;
     align-items: center;
     padding: 50px 50px;
-    gap: 20px;
+    gap: 30px;
 }
 
 .Map img {
-    /* margin-right: 20px; */
-    width: 100%;
+    /* margin-right: 338px; */
+    width: 80%;
     height: auto;
     /* border: 2px solid seagreen; */
+    position: relative;
+    left: 21.5%
 }
 
 .Maptx {
@@ -266,36 +376,46 @@ header nav {
 }
 
 .Mapwrite {
-    width: 50%;
+    width: 45%;
+    position: relative;
+    left: 5%;
 }
 
 .Maph3 {
     font-family: Montserrat;
-    font-size: 48px;
+    font-size: 43px;
     font-weight: 700;
     line-height: 60px;
-    letter-spacing: 0px;
     text-align: left;
+    margin-left: 14%;
 }
 
 .Mapwrite p {
-    padding-top: 28px;
+    padding-top: 2px;
     font-family: PT Serif;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0px;
     text-align: left;
+
+    margin-left: 14%;
 }
 
 .Mapwrite button {
     background-color: #5558DB;
-    margin-top: 15px;
     border: none;
-    padding: 10px 30px;
-    width: 200px;
-    border-radius: 3px;
+    /* padding: 10px 16px; */
+    height: 60px;
+    width: 300px;
     color: #fff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+    margin-left: 72px;
+    margin-top: 13px;
 }
 
 /*Pricing*/
@@ -305,9 +425,9 @@ header nav {
 }
 
 .price .plex {
-    padding-top: 10%;
+    padding-top: 6%;
     font-family: Montserrat;
-    font-size: 48px;
+    font-size: 33px;
     font-weight: 700;
     line-height: 60px;
     text-align: center;
@@ -315,10 +435,11 @@ header nav {
 
 .price .lex {
     font-family: PT Serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 30px;
     text-align: center;
+    padding-bottom: 34px;
 }
 
 
@@ -338,16 +459,16 @@ aside {
 }
 
 aside button {
-    background-color: #5558DB;
+    background-color: #999bee;
     border: none;
     color: #FFFFFF;
     font-family: Montserrat;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 700;
     line-height: 20px;
     letter-spacing: 0px;
     text-align: center;
-    padding: 10px 15px;
+    padding: 5px 15px;
     /* padding-bottom: 20px; */
 }
 
@@ -362,7 +483,7 @@ aside button {
 
 .pricelisth3 {
     font-family: Montserrat;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 48px;
     letter-spacing: 0px;
@@ -371,7 +492,7 @@ aside button {
 
 .pricelisth2 {
     font-family: Montserrat;
-    font-size: 72px;
+    font-size: 57px;
     font-weight: 700;
     line-height: 90px;
     letter-spacing: 0px;
@@ -379,11 +500,14 @@ aside button {
 }
 
 .pricelistp {
+    /* position: relative; */
+    /* top: 44px; */
+    margin-top: -14px;
+    margin-bottom: 13px;
     font-family: PT Serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    letter-spacing: 0px;
     text-align: center;
 }
 
@@ -391,21 +515,23 @@ aside button {
     background: #FFFFFF;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
     border-radius: 3px;
-    padding: 50px;
+    padding: 25px;
+    width: 30%;
 }
 
 .pricelist1 .cellprice {
     background-color: #5558DB;
     border: none;
-    padding: 10px;
+    /* padding: 10px 16px; */
     height: 60px;
-    width: 350px;
+    width: 300px;
     color: #fff;
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 700;
     line-height: 22px;
     text-align: center;
+    margin-left: 55px;
 }
 
 .shape {
@@ -425,6 +551,11 @@ aside button {
     justify-content: center;
 }
 
+.shape p {
+    font-size: 15px;
+}
+
+
 .lastp {
     font-family: PT Serif;
     font-size: 18px;
@@ -432,9 +563,13 @@ aside button {
     line-height: 30px;
     text-align: center;
     padding: 25px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    padding-top: 33px;
     padding-bottom: 12%;
+    margin-left: 41px;
+    /* border: 12px solid red; */
 }
+
 
 /*rectangle*/
 
@@ -446,7 +581,8 @@ aside button {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 14%;
+    gap: 10%;
+    padding-top: 10%;
 }
 
 
@@ -460,6 +596,28 @@ aside button {
     gap: 10px;
     align-content: center;
     padding-top: 33px;
+}
+
+.rect2 button {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding: 7px 12px;
+    background-color: #5558DB;
+    height: 50px;
+    width: 160px;
+    border: none;
+    color: white;
+}
+
+.rect2 input {
+    height: 48px;
+    width: 334px;
+    border-radius: none;
+    background-color: #5558DB;
 }
 
 .rect1 h2 {
