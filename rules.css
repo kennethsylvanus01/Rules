@@ -12,6 +12,9 @@ body {
     font-family: Montserrat;
 }
 
+li {
+    list-style-type: none;
+}
 
 /*testing*/
 .first {
@@ -24,13 +27,117 @@ body {
     padding: 17em 10em;
     background-repeat: no-repeat;
     position: relative;
-    left: 10.3%;
+    left: 24.6%;
     background-size: contain;
     background-position: right;
 }
 
+.intl{
+    back
+    width: 50%;
+}
+
+.firstheader {
+    /* width: 70%; */
+    /* max-width: 90%; */
+    /* margin: 0 auto; */
+    position: relative;
+    /* background-color: #999bee; */
+    left: 12%;
+}
+
+/* .firstheaderlogo img {
+    position: relative;
+    top: 0px;
+    left: 0;
+} */
+
+.headfist {
+    margin-top: 20px;
+}
+
+.lipps button {
+    /* height: 60px;
+    width: 100px; */
+    font-size: 16px;
+    color: #fff;
+    background-color: #5558DB;
+    border: none;
+    margin-top: 12px;
+    padding: 15px 49px;
+}
+
+.lipps {
+    display: flex;
+    gap: 10%;
+}
+
+.onf {
+    margin-top: 15px;
+    font-family: PT Serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+
+}
+
+.lipps input {
+    /* height: 60px;*/
+    width: 50%;
+    font-size: 16px;
+    color: #fff;
+    background-color: #5558DB;
+    border: none;
+    padding: 18px 25px;
+    margin-top: 9px;
+}
+
+.xool {
+    /* border: 1px solid red; */
+    margin-top: 18%;
+    width: 140%;
+}
+
+.xool h1 {
+    font-family: Montserrat;
+    font-size: 57px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.xool p {
+    font-family: PT Serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #F8F8F8;
+    text-align: left;
+}
+
+.hail {
+    display: flex;
+    margin-top: 30%;
+    color: #FFFFFF;
+}
+
+.hail p {
+    font-size: 14px;
+}
+
+.clicklast {
+    position: relative;
+    bottom: 0%;
+}
+
 
 /*testing*/
+
 .container {
     background-color: #0B162B;
     width: 100%;
@@ -697,3 +804,132 @@ aside button {
     text-align: left;
     color: #FFFFFF;
 }
+
+/*testing*/
+.footer {
+
+    background: #0B162B;
+    color: #fff;
+    /* height: 400px; */
+    position: relative;
+}
+
+.footerlaz {
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.footerholder {
+    margin-left: 76px;
+    display: flex;
+    padding-top: 33px;
+}
+
+.getstarted {
+    width: 50%;
+    /* background: red; */
+    /* padding-bottom: 0; */
+}
+
+.inputfooter {
+    width: 50%;
+    margin: 65px;
+}
+
+.inputfooter input {
+    background-color: #5558DB;
+    color: #FFFFFF;
+    line-height: 1.5rem;
+    padding: 21px 49px;
+    height: 60px;
+    width: 70%;
+    border: none;
+}
+
+.inputfooter button {
+    /* height: 60px;
+width: 100px; */
+    font-size: 16px;
+    color: #fff;
+    background-color: #5558DB;
+    border: none;
+    padding: 20px 25px;
+}
+
+.getstarted h3 {
+    font-family: Montserrat;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: left;
+    margin-top: 66px;
+}
+
+.getstarted p {
+    font-family: PT Serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+}
+
+.footerinfo {
+    display: flex;
+    margin-left: 6%;
+    gap: 24.1%;
+    margin-top: 18px;
+
+}
+
+.solution {
+    display: flex;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+}
+
+.alar {
+    width: 33.33%;
+    float: left;
+    flex: 1px;
+    /* border: 1px solid red; */
+    padding: 20px 36px;
+    /* margin-right: 14%; */
+    text-align: left;
+    padding-bottom: 14%;
+    position: relative;
+    line-height: 260%;
+}
+
+.alar h4 {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+    /* line-height: 30px; */
+    /* letter-spacing: 0px; */
+    text-align: left;
+}
+
+.alar p {
+    font-family: PT Serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+
+}
+
+hr {
+    margin-left: 6%;
+    margin-bottom: 3px;
+    width: 87.4%;
+    height: 3px;
+    background-color: #fff;
+}
+
+.contactme img {
+    width: 120px;
+}
+
+/*testing*/
