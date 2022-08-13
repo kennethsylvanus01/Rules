@@ -14,16 +14,15 @@ li {
     list-style-type: none;
 }
 
-.menusection {
+.headersection {
     background: #0B162B;
-    max-width: 1500px;
     margin: 0 auto;
 }
 
 .wrapper {
     max-width: 1200px;
     position: relative;
-    left: 149px;
+    margin: 0 auto;
 }
 
 .navigato {
@@ -63,7 +62,7 @@ li {
 }
 
 .leftcontainerholder {
-    max-width: 90%;
+    /* max-width: 90%; */
     margin-top: 5%;
     margin-bottom: 13%;
 }
@@ -138,7 +137,11 @@ li {
     background-image: url(Background.png);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 50%;
+    width: 55%;
+    position: absolute;
+    height: 100%;
+    left: 51%;
+    /* margin-left: 43; */
 }
 
 .backgroundon1 {
@@ -269,7 +272,7 @@ header nav {
 }
 
 /* Features Section */
-/*testing*/
+
 .carter {
     width: 100%;
     padding-top: 5%;
@@ -349,7 +352,7 @@ header nav {
 }
 
 /*Laptop Section*/
-/*testing*/
+
 .Layout__Constraint {
     margin: 0 auto;
     padding-right: 12%;
@@ -360,26 +363,31 @@ header nav {
 
 /*testing*/
 .Laptop {
-    justify-content: space-between;
-    align-items: center;
-    padding: 100px 50px;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    padding: 100px 40px;
     gap: 60px;
     background: #F8F8F8;
 }
 
 .Laptopx {
-    margin-left: 14%;
+    position: relative;
+    left: 7%;
+    max-width: 50%;
+    width: 100%;
 }
 
 .Laptopx img {
-    width: 100%;
+    width: 400px;
     height: auto;
     position: relative;
-    right: 12%;
+    left: 0;
 }
 
 .Laptopwrite {
-    width: 50%;
+    max-width: 200%;
+    position: relative;
+    left: 4%;
 }
 
 .Laptopwrite h3 {
@@ -414,26 +422,32 @@ header nav {
 .Map {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 50px 50px;
+    /* align-items: center; */
+    /* padding: 50px 50px; */
+    position: relative;
+    left: 0;
     gap: 30px;
 }
 
 .Map img {
-    width: 80%;
-    height: auto;
+    width: 100%;
+    /* max-width: 100%; */
+    /* height: auto; */
     position: relative;
-    left: 21.5%
+    /* left: 12%; */
 }
 
 .Maptx {
-    margin-right: -3%;
+    width: 50%;
+    margin-left: 8%;
 }
 
 .Mapwrite {
-    width: 45%;
+    width: 40%;
     position: relative;
     left: 5%;
+    margin-left: 3%;
+    /* padding-right:45%; */
 }
 
 .Maph3 {
@@ -442,7 +456,7 @@ header nav {
     font-weight: 700;
     line-height: 60px;
     text-align: left;
-    margin-left: 14%;
+    /* margin-left: 14%; */
 }
 
 .Mapwrite p {
@@ -454,7 +468,7 @@ header nav {
     letter-spacing: 0px;
     text-align: left;
 
-    margin-left: 14%;
+    /* margin-left: 14%; */
 }
 
 .Mapwrite button {
@@ -468,14 +482,14 @@ header nav {
     font-weight: 700;
     line-height: 22px;
     text-align: center;
-    margin-left: 72px;
+    /* margin-left: 72px; */
     margin-top: 13px;
 }
 
 /*Pricing*/
 .price {
     background-color: #F8F8F8;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .price .plex {
@@ -483,7 +497,6 @@ header nav {
     font-family: Montserrat;
     font-size: 33px;
     font-weight: 700;
-    line-height: 60px;
     text-align: center;
 }
 
@@ -501,7 +514,17 @@ header nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+
+}
+
+.pricelist1 {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    padding: 25px;
+    max-width: 100%;
+
+    margin: 0 16px;
 }
 
 aside {
@@ -509,7 +532,6 @@ aside {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    align-content: center;
 }
 
 aside button {
@@ -520,9 +542,9 @@ aside button {
     font-size: 13px;
     font-weight: 700;
     line-height: 20px;
-    letter-spacing: 0px;
     text-align: center;
-    padding: 5px 15px;
+    padding: 5px 12px;
+    margin-left: 8px;
 }
 
 .aside p {
@@ -560,14 +582,6 @@ aside button {
     font-weight: 400;
     line-height: 30px;
     text-align: center;
-}
-
-.pricelist1 {
-    background: #FFFFFF;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
-    border-radius: 3px;
-    padding: 25px;
-    width: 30%;
 }
 
 .pricelist1 .cellprice {
@@ -745,32 +759,39 @@ aside button {
 
 /*testing*/
 .footer {
-
     background: #0B162B;
     color: #fff;
     position: relative;
 }
 
 .footerlaz {
-    width: 100%;
-    max-width: 90%;
+    width: 85%;
     margin: 0 auto;
 }
 
 .footerholder {
-    margin-left: 76px;
     display: flex;
-    padding-top: 33px;
 }
 
+hr {
+    margin-top: 4%;
+    margin-bottom: 3px;
+    width: 91%;
+    height: 3px;
+    background-color: #fff;
+    outline: none;
+}
+
+
 .getstarted {
-    width: 50%;
+    flex: 40%;
 }
 
 .inputfooter {
-    width: 50%;
-    margin: 65px;
-    gap: 60%;
+    margin-top: 60px;
+    left: 50.4%;
+    flex: 60%;
+    padding-left: 80px;
 }
 
 .inputfooter input {
@@ -789,6 +810,7 @@ aside button {
     border: none;
     padding: 20px 25px;
     display: inline-block;
+    margin-left: 22px;
 }
 
 .getstarted h3 {
@@ -810,28 +832,24 @@ aside button {
 
 .footerinfo {
     display: flex;
-    gap: 21.1%;
     margin-top: 18px;
-    margin-left: 6%;
 }
 
 .solution {
     display: flex;
     color: #fff;
     text-align: center;
-    font-size: 13px;
 }
 
 .alar {
-    width: 33.33%;
     float: left;
     flex: 1px;
-    padding: 20px 36px;
+    /* gap: 12px; */
     text-align: left;
-    padding-bottom: 14%;
-    position: relative;
-    right: 6%;
-    line-height: 260%;
+    margin: 20px 70px;
+    margin-left: 0;
+    margin-bottom: 15%;
+    width: auto;
 }
 
 .alar h4 {
@@ -841,25 +859,23 @@ aside button {
     text-align: left;
 }
 
-.alar p {
+.alar ul {
+    margin-top: 13px;
+}
+
+.alar ul li {
     font-family: PT Serif;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 36px;
     text-align: left;
-
+    letter-spacing: 3px;
 }
 
-hr {
-    margin-left: 6%;
-    margin-bottom: 3px;
-    width: 87.4%;
-    height: 3px;
-    background-color: #fff;
-}
 
 .contactme {
-    margin-left: 3.4%;
+    margin-left: 20%;
+    margin-top: 2%;
 }
 
 .contactme img {
@@ -869,9 +885,112 @@ hr {
 /*testing*/
 
 /*Media query Session*/
-@media (max-width:650px) {
-    .sells {
-        /* display: none; */
+@media (max-width:768px) {
+
+    .newslogo img {
+        width: 100%;
+        height: 100px;
+        position: relative;
+        padding: 0;
+        margin: 0;
+    }
+
+    .carter {
+        width: 100%;
+        padding-top: 5%;
+        padding-left: 16%;
+        padding-bottom: 4%;
+        position: relative;
+    }
+
+    .flex- {
+        display: block;
+        position: relative;
+    }
+
+    .mugan {
+        margin-top: 16px;
+        width: 100%;
+    }
+
+    .Laptop .Layout__Constraint {
+        display: block;
+    }
+
+    .Laptopx {
+        width: 100%;
+        position: relative;
+        left: 0;
+        top: 0;
+        padding-left: 28%;
+    }
+
+    .Laptopwrite {
+        margin-top: 14%;
+        padding-left: 20%;
+    }
+
+    .Map {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .Mapwrite {
+        margin-left: 20%;
+        width: 50%;
+    }
+
+    .Maptx {
+        position: relative;
+        margin-left: 0;
+        margin-top: 31%;
+    }
+
+    .Maptx img {
+        width: 200%;
+        background-color: #0B162B;
+        justify-content: center;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .priceholder {
+        display: block;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .pricelist1 .cellprice {
+        background-color: #5558DB;
+        border: none;
+        padding: 4px 80px;
+        height: 60px;
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        margin-left: 31%;
+    }
+
+    .footerholder{
+        display: block;
+    }
+
+    .inputfooter{
+        display: block;
+    }
+
+    .inputfooter input{
+        display: block;
+        margin-left: 15%;
+    }
+
+    .inputfooter button{
+        margin-top: 30px;
+        margin-left: 30%;
+        padding:31px 71px;
     }
 }
 
+/*texting*/
