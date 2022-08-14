@@ -905,7 +905,7 @@ hr {
         width: 100%;
         position: relative;
         margin: 0 auto;
-        margin-left: 9%;
+        margin-left: 0;
     }
 
     .leftcontentside {
@@ -1033,7 +1033,7 @@ hr {
     }
 
     .Map p {
-        padding-left: 5%;
+        padding-left: 1%;
     }
 
     .Maptx {
