@@ -886,7 +886,7 @@ hr {
 /*Media query Session*/
 @media (max-width:768px) {
 
-    .navigato{
+    .navigato {
         display: none;
     }
 
@@ -901,9 +901,16 @@ hr {
         margin-right: 10%;
     }
 
+    .wrapper {
+        width: 100%;
+        position: relative;
+        margin: 0 auto;
+        margin-left: 9%;
+    }
+
     .leftcontentside {
         max-width: 100%;
-        /* margin-left: 2%; */
+        margin-right: 104%;
     }
 
     .leftcontainerholder input {
@@ -955,6 +962,8 @@ hr {
     .Laptop {
         background: rgb(248, 248, 248);
         width: 100%;
+        padding: 80px 20px;
+        gap: 0;
     }
 
 
@@ -965,8 +974,8 @@ hr {
 
     .Laptopx {
         width: 100%;
-       margin: 0;
-       padding: 0;
+        margin-right: 30%;
+        padding: 0;
     }
 
     .Laptopx img {
@@ -995,13 +1004,14 @@ hr {
     .Laptop button {
         background-color: #5558DB;
         border: none;
-        padding: 30px 74px;
+        padding: 20px 68px;
         display: inline-block;
         color: #fff;
         font-family: Montserrat;
         font-size: 18px;
         font-weight: 700;
         text-align: center;
+        margin-left: 10%;
     }
 
 
@@ -1019,11 +1029,11 @@ hr {
 
     .Mapwrite h3 {
         text-align: center;
-        padding-right: 19%;
+        padding-right: 0;
     }
 
     .Map p {
-        padding-right: 18%;
+        padding-left: 5%;
     }
 
     .Maptx {
@@ -1142,7 +1152,7 @@ hr {
         margin-bottom: 0;
     }
 
-    .footerinfo{
+    .footerinfo {
         display: block;
     }
 
@@ -1154,7 +1164,7 @@ hr {
     .backgroundonright {
         display: none;
     }
-    
+
     .alar ul {
         color: #fff;
     }
@@ -1165,13 +1175,13 @@ hr {
     }
 
 
-    .contactme{
+    .contactme {
         margin: 0;
         margin-left: 30%;
-        
+
     }
 
-    .contactme img{
+    .contactme img {
         width: 59%;
         margin-top: 22px;
         margin-bottom: 5%;
