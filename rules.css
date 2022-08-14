@@ -905,12 +905,19 @@ hr {
         width: 100%;
         position: relative;
         margin: 0 auto;
-        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .leftcontainerholder {
+        /* max-width: 90%; */
+        margin-top: 5%;
+        margin-bottom: 13%;
     }
 
     .leftcontentside {
         max-width: 100%;
-        margin-right: 104%;
+        margin-left: 6%;
+
     }
 
     .leftcontainerholder input {
@@ -1110,13 +1117,12 @@ hr {
     .inputfooter input {
         margin: 0;
         display: block;
-        margin-left: 9%;
+        margin-left: 5%;
         margin-top: 6%;
-
         background-color: #5558DB;
         color: #FFFFFF;
         line-height: 1.5rem;
-        padding: 21px 70px;
+        padding: 21px 68px;
         border: none;
     }
 
