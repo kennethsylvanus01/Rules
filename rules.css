@@ -408,12 +408,10 @@ header nav {
     background-color: #5558DB;
     border: none;
     padding: 10px 76px;
-    height: 60px;
     color: #fff;
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 700;
-    line-height: 22px;
     text-align: center;
     margin-top: 4px;
 }
@@ -813,6 +811,7 @@ hr {
     margin-left: 22px;
 }
 
+
 .getstarted h3 {
     font-family: Montserrat;
     font-size: 34px;
@@ -844,7 +843,6 @@ hr {
 .alar {
     float: left;
     flex: 1px;
-    /* gap: 12px; */
     text-align: left;
     margin: 20px 70px;
     margin-left: 0;
@@ -887,6 +885,10 @@ hr {
 /*Media query Session*/
 @media (max-width:768px) {
 
+    .navigato{
+        display: none;
+    }
+
     .newslogo img {
         width: 100%;
         height: 100px;
@@ -913,31 +915,78 @@ hr {
         width: 100%;
     }
 
+    .Laptop {
+        background: rgb(248, 248, 248);
+        width: 100%;
+    }
+
+
     .Laptop .Layout__Constraint {
         display: block;
+        width: 100%;
     }
 
     .Laptopx {
         width: 100%;
-        position: relative;
-        left: 0;
-        top: 0;
-        padding-left: 28%;
+       margin: 0;
+       padding: 0;
+    }
+
+    .Laptopx img {
+        width: 300px;
     }
 
     .Laptopwrite {
-        margin-top: 14%;
-        padding-left: 20%;
+        width: 100%;
+        margin-top: 18%;
     }
+
+    .Laptopwrite h3 {
+        font-family: Montserrat;
+        font-size: 46px;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 3px;
+        text-align: center;
+    }
+
+    .Laptopwrite p {
+        padding-top: 30px;
+        font-size: 14px;
+    }
+
+    .Laptop button {
+        background-color: #5558DB;
+        border: none;
+        padding: 30px 74px;
+        display: inline-block;
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+    }
+
 
     .Map {
         display: block;
-        margin: 0 auto;
+        padding: 0;
+        margin: 0;
+        gap: 0;
     }
 
     .Mapwrite {
-        margin-left: 20%;
-        width: 50%;
+        width: 100%;
+
+    }
+
+    .Mapwrite h3 {
+        text-align: center;
+        padding-right: 19%;
+    }
+
+    .Map p {
+        padding-right: 18%;
     }
 
     .Maptx {
@@ -961,35 +1010,129 @@ hr {
         align-content: center;
     }
 
+    .pricelist1 {
+        margin-bottom: 72px;
+    }
+
     .pricelist1 .cellprice {
         background-color: #5558DB;
         border: none;
         padding: 4px 80px;
-        height: 60px;
         color: #fff;
         font-family: Montserrat;
         font-size: 18px;
         font-weight: 700;
-        margin-left: 31%;
-    }
-
-    .footerholder{
+        margin: 0%;
         display: block;
     }
 
-    .inputfooter{
+    .shape span {
+        display: flex;
+        gap: 12px;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        margin-top: 13px;
+        margin-right: 20%;
+    }
+
+    .lastp {
+        margin: 0;
+        padding: 0;
+        font-size: 23px;
+    }
+
+    .footerholder {
         display: block;
     }
 
-    .inputfooter input{
-        display: block;
-        margin-left: 15%;
+    .getstarted h3 {
+        text-align: center;
     }
 
-    .inputfooter button{
+    .getstarted p {
+        margin-top: 4%;
+        text-align: center;
+    }
+
+    .inputfooter {
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+
+    .inputfooter input {
+        margin: 0;
+        display: block;
+        margin-left: 4%;
+        margin-top: 6%;
+    }
+
+    .inputfooter button {
         margin-top: 30px;
+        margin-left: 22%;
+        padding: 31px 71px;
+    }
+
+    hr {
+        margin-top: 7%;
+        margin-bottom: 3px;
+        width: 80%;
+        margin-left: 11%;
+        height: 3px;
+        background-color: #fff;
+        outline: none;
+    }
+
+    .solution {
+        display: block;
+        justify-content: space-between;
+
+    }
+
+    .alar {
+        float: left;
+        text-align: left;
+        display: block;
+        width: 50%;
+        padding-left: 32px;
+        margin-left: 28%;
+        margin-bottom: 0;
+    }
+
+    .footerinfo{
+        display: block;
+    }
+
+    .footerlaz {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .backgroundonright {
+        display: none;
+    }
+    
+    .alar ul {
+        color: #fff;
+    }
+
+    .alar h4 {
+        color: #fff;
+        font-size: 26px;
+    }
+
+
+    .contactme{
+        margin: 0;
         margin-left: 30%;
-        padding:31px 71px;
+        
+    }
+
+    .contactme img{
+        width: 59%;
+        margin-top: 22px;
+        margin-bottom: 5%;
     }
 }
 
