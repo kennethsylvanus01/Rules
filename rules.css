@@ -142,7 +142,6 @@ li {
     position: absolute;
     height: 100%;
     left: 51%;
-    /* margin-left: 43; */
 }
 
 .backgroundon1 {
@@ -364,8 +363,6 @@ header nav {
 
 /*testing*/
 .Laptop {
-    /* justify-content: space-between; */
-    /* align-items: center; */
     padding: 100px 40px;
     gap: 60px;
     background: #F8F8F8;
@@ -425,8 +422,6 @@ header nav {
 .Map {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
-    /* padding: 50px 50px; */
     position: relative;
     left: 0;
     gap: 30px;
@@ -434,10 +429,7 @@ header nav {
 
 .Map img {
     width: 100%;
-    /* max-width: 100%; */
-    /* height: auto; */
     position: relative;
-    /* left: 12%; */
 }
 
 .Maptx {
@@ -450,7 +442,6 @@ header nav {
     position: relative;
     left: 5%;
     margin-left: 3%;
-    /* padding-right:45%; */
 }
 
 .Maph3 {
@@ -482,14 +473,12 @@ header nav {
     font-weight: 700;
     line-height: 22px;
     text-align: center;
-    /* margin-left: 72px; */
     margin-top: 13px;
 }
 
 /*Pricing*/
 .price {
     background-color: #F8F8F8;
-    /* text-align: center; */
 }
 
 .price .plex {
@@ -840,7 +829,6 @@ hr {
 
 .solution {
     display: flex;
-    /* color: #fff; */
     text-align: center;
 }
 
@@ -914,7 +902,6 @@ hr {
     }
 
     .leftcontainerholder {
-        /* max-width: 90%; */
         margin-top: 5%;
         margin-bottom: 13%;
     }
@@ -1177,7 +1164,9 @@ hr {
     }
 
     .alar ul {
-        color: #fff;
+        color: #807b7b;
+        font-weight: 900;
+        
     }
 
     .alar h4 {
