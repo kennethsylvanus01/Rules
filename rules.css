@@ -1052,8 +1052,8 @@ hr {
         background-color: #5558DB;
         border: none;
         margin-top: 12px;
-        padding: 10px 30px;
-        margin-left: 22%;
+        padding: 20px 68px;
+        margin-left: 12%;
     }
 
     .leftcontainerholder button:hover {
@@ -1061,10 +1061,9 @@ hr {
         color: #5558DB;
         background-color: #fff;
         margin-top: 12px;
-        padding: 10px 30px;
-        margin-left: 22%;
+        padding: 20px 68px;
+        margin-left: 12%;
     }
-
 
     .newslogo img {
         width: 100%;
@@ -1080,6 +1079,14 @@ hr {
         padding-left: 16%;
         padding-bottom: 4%;
         position: relative;
+    }
+
+    .ess2 {
+        text-align: center;
+    }
+
+    .ess1 {
+        text-align: center;
     }
 
     .flex- {
@@ -1137,6 +1144,7 @@ hr {
     .Laptop button {
         background-color: #5558DB;
         border: none;
+        outline: 1px solid #5558DB;
         padding: 20px 68px;
         display: inline-block;
         color: #fff;
@@ -1167,19 +1175,21 @@ hr {
         color: #fff;
         font-family: Montserrat;
         font-size: 18px;
+        margin-left: 13%;
         font-weight: 700;
         text-align: center;
         margin-top: 13px;
-        outline: 2px solid #5558DB;
+        outline: 1px solid #5558DB;
     }
 
     .Mapwrite button:hover {
         background-color: #fff;
-        padding: 20px 76px;
-        outline: 2px solid #5558DB;
+        outline: 1px solid #5558DB;
         color: #5558DB;
         font-family: Montserrat;
+        padding: 20px 68px;
         font-size: 18px;
+        margin-left: 13%;
         font-weight: 700;
         text-align: center;
         margin-top: 13px;
