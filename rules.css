@@ -54,6 +54,12 @@ li {
     color: #fff;
 }
 
+.navitogocomponent button:hover {
+    outline: 2px solid blue;
+    padding: 11px 38px;
+    background-color: rgb(255, 255, 255);
+    color: blue;
+}
 .dotsothing {
     display: flex;
 }
@@ -116,8 +122,19 @@ li {
 
 .leftcontainerholder input {
     font-size: 16px;
+    outline: none;
     color: #fff;
     background-color: #5558DB;
+    border: none;
+    padding: 15px 75px;
+    margin-top: 6%;
+    border-radius: 2px;
+}
+
+.leftcontainerholder input:hover {
+    font-size: 16px;
+    outline: none;
+    background-color: #fff;
     border: none;
     padding: 15px 75px;
     margin-top: 6%;
@@ -133,6 +150,17 @@ li {
     padding: 15px 40px;
     margin-left: 13px;
 }
+
+.leftcontainerholder button:hover {
+    font-size: 16px;
+    color: blue;
+    background-color: #fff;
+    outline: 2px solid blue;
+    margin-top: 12px;
+    padding: 15px 40px;
+    margin-left: 13px;
+}
+
 
 .backgroundonright {
     background-image: url(Background.png);
@@ -353,19 +381,20 @@ header nav {
 
 /*Laptop Section*/
 
-.Layout__Constraint {
-    margin: 0 auto;
-    padding-right: 12%;
-    display: flex;
-    flex-direction: row;
-    gap: 70px;
-}
+
 
 /*testing*/
 .Laptop {
     padding: 100px 40px;
-    gap: 60px;
+    /* gap: 60px; */
     background: #F8F8F8;
+}
+.Layout__Constraint {
+    margin: 0 auto;
+    padding: 0 1%;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
 }
 
 .Laptopx {
@@ -383,7 +412,6 @@ header nav {
 }
 
 .Laptopwrite {
-    max-width: 200%;
     position: relative;
     left: 4%;
 }
@@ -411,6 +439,18 @@ header nav {
     border: none;
     padding: 10px 76px;
     color: #fff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.Laptopwrite button:hover {
+    background-color: white;
+    outline: 2px solid blue;
+    padding: 10px 76px;
+    color: blue;
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 700;
@@ -465,13 +505,25 @@ header nav {
 .Mapwrite button {
     background-color: #5558DB;
     border: none;
-    height: 60px;
-    width: 300px;
+    padding: 10px 76px;
+    /* width: 300px; */
     color: #fff;
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 700;
-    line-height: 22px;
+    text-align: center;
+    margin-top: 13px;
+}
+
+.Mapwrite button:hover {
+    background-color: #fff;
+    border: 2px solid blue;
+    padding: 10px 76px;
+    /* width: 300px; */
+    color: blue;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
     text-align: center;
     margin-top: 13px;
 }
@@ -536,6 +588,20 @@ aside button {
     margin-left: 8px;
 }
 
+aside button:hover {
+    background-color: #fff;
+    outline: 2px solid #999bee;
+    border: none;
+    color: #999bee;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    padding: 5px 12px;
+    margin-left: 8px;
+}
+
 .aside p {
     font-family: Montserrat;
     font-size: 18px;
@@ -579,6 +645,20 @@ aside button {
     padding: 4px 80px;
     height: 60px;
     color: #fff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+    margin-left: 38px;
+}
+
+.pricelist1 .cellprice:hover {
+    background-color: #fff;
+    outline:2px solid #5558DB;
+    padding: 4px 80px;
+    height: 60px;
+    color: #5558DB;
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 700;
@@ -791,11 +871,32 @@ hr {
     border: none;
 }
 
+.inputfooter input:hover {
+    background-color: #fff;
+    color: black;
+    outline: none;
+    line-height: 1.5rem;
+    padding: 16px 89px;
+    border: none;
+}
+
 .inputfooter button {
     font-size: 16px;
     color: #fff;
     background-color: #5558DB;
     border: none;
+    padding: 19px 25px;
+    display: inline-block;
+    margin-left: 22px;
+    font-weight: 700;
+}
+
+.inputfooter button:hover {
+    font-size: 16px;
+    color: #5558DB;
+    background-color: #fff;
+    border: none;
+    outline: 2px solid #5558DB;
     padding: 19px 25px;
     display: inline-block;
     margin-left: 22px;
@@ -838,7 +939,7 @@ hr {
     text-align: left;
     margin: 20px 70px;
     margin-left: 0;
-    margin-bottom: 15%;
+    margin-bottom: 4%;
     width: auto;
 }
 
@@ -872,6 +973,17 @@ hr {
 
 .contactme img {
     width: 120px;
+}
+
+.nameofdeveloper p{
+   text-align: center;
+   font-family: PT Serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 3px;
+    padding-bottom: 2%;
+    color: #807b7b;
 }
 
 /*testing*/
@@ -914,12 +1026,23 @@ hr {
 
     .leftcontainerholder input {
         font-size: 16px;
-        color: #fff;
-        background-color: #5558DB;
-        border: none;
-        padding: 15px 55px;
-        margin-top: 15%;
-        border-radius: 2px;
+    outline: none;
+    color: #fff;
+    background-color: #5558DB;
+    border: none;
+    padding: 15px 75px;
+    margin-top: 6%;
+    border-radius: 2px;
+    }
+
+    .leftcontainerholder input:hover {
+        font-size: 16px;
+    outline: 1px solid #5558DB;
+    color: black;
+    background-color: #fff;
+    padding: 15px 75px;
+    margin-top: 6%;
+    border-radius: 2px;
     }
 
     .leftcontainerholder button {
@@ -931,6 +1054,16 @@ hr {
         padding: 10px 30px;
         margin-left: 22%;
     }
+
+    .leftcontainerholder button:hover {
+        font-size: 16px;
+        color: #5558DB;
+        background-color: #fff;
+        margin-top: 12px;
+        padding: 10px 30px;
+        margin-left: 22%;
+    }
+
 
     .newslogo img {
         width: 100%;
@@ -1013,6 +1146,19 @@ hr {
         margin-left: 10%;
     }
 
+    .Laptop button:hover {
+        background-color: #fff;
+        outline: 2px solid #5558DB;
+        padding: 20px 68px;
+        display: inline-block;
+        color: #5558DB;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        margin-left: 10%;
+    }
+
 
     .Map {
         display: block;
@@ -1071,6 +1217,18 @@ hr {
         display: block;
     }
 
+    .pricelist1 .cellprice:hover {
+        background-color: #fff;
+        outline: 2px solid #5558DB;
+        padding: 4px 80px;
+        color: #5558DB;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        margin: 0%;
+        display: block;
+    }
+
     .shape span {
         display: flex;
         gap: 12px;
@@ -1118,10 +1276,31 @@ hr {
         border: none;
     }
 
+    .inputfooter input:hover{
+        margin: 0;
+    display: block;
+    margin-left: 5%;
+    margin-top: 6%;
+    background-color: #fff;
+    outline: 1px solid #5558DB ;
+    color: #FFFFFF;
+    line-height: 1.5rem;
+    padding: 21px 68px;
+    border: none;
+    }
+
     .inputfooter button {
         margin-top: 30px;
         margin-left: 22%;
         padding: 20px 71px;
+    }
+
+    .inputfooter button:hover {
+        margin-top: 30px;
+        margin-left: 22%;
+        padding: 20px 71px;
+        outline: 2px solid #5558DB;
+        background-color: #fff;
     }
 
     hr {
