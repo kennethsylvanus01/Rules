@@ -17,7 +17,7 @@ li {
 .headersection {
     margin: 0 auto;
     background: #0B162B;
-    
+
 }
 
 .wrapper {
@@ -60,6 +60,7 @@ li {
     background-color: rgb(255, 255, 255);
     color: blue;
 }
+
 .dotsothing {
     display: flex;
 }
@@ -389,6 +390,7 @@ header nav {
     /* gap: 60px; */
     background: #F8F8F8;
 }
+
 .Layout__Constraint {
     margin: 0 auto;
     padding: 0 1%;
@@ -655,7 +657,7 @@ aside button:hover {
 
 .pricelist1 .cellprice:hover {
     background-color: #fff;
-    outline:2px solid #5558DB;
+    outline: 2px solid #5558DB;
     padding: 4px 80px;
     height: 60px;
     color: #5558DB;
@@ -975,9 +977,9 @@ hr {
     width: 120px;
 }
 
-.nameofdeveloper p{
-   text-align: center;
-   font-family: PT Serif;
+.nameofdeveloper p {
+    text-align: center;
+    font-family: PT Serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 36px;
@@ -1026,23 +1028,23 @@ hr {
 
     .leftcontainerholder input {
         font-size: 16px;
-    outline: none;
-    color: #fff;
-    background-color: #5558DB;
-    border: none;
-    padding: 15px 75px;
-    margin-top: 6%;
-    border-radius: 2px;
+        outline: none;
+        color: #fff;
+        background-color: #5558DB;
+        border: none;
+        padding: 15px 50px;
+        margin-top: 6%;
+        border-radius: 2px;
     }
 
     .leftcontainerholder input:hover {
         font-size: 16px;
-    outline: 1px solid #5558DB;
-    color: black;
-    background-color: #fff;
-    padding: 15px 75px;
-    margin-top: 6%;
-    border-radius: 2px;
+        outline: 1px solid #5558DB;
+        color: black;
+        background-color: #fff;
+        padding: 15px 50px;
+        margin-top: 6%;
+        border-radius: 2px;
     }
 
     .leftcontainerholder button {
@@ -1276,17 +1278,17 @@ hr {
         border: none;
     }
 
-    .inputfooter input:hover{
+    .inputfooter input:hover {
         margin: 0;
-    display: block;
-    margin-left: 5%;
-    margin-top: 6%;
-    background-color: #fff;
-    outline: 1px solid #5558DB ;
-    color: #FFFFFF;
-    line-height: 1.5rem;
-    padding: 21px 68px;
-    border: none;
+        display: block;
+        margin-left: 5%;
+        margin-top: 6%;
+        background-color: #fff;
+        outline: 1px solid #5558DB;
+        color: #FFFFFF;
+        line-height: 1.5rem;
+        padding: 21px 68px;
+        border: none;
     }
 
     .inputfooter button {
@@ -1345,7 +1347,7 @@ hr {
     .alar ul {
         color: #807b7b;
         font-weight: 900;
-        
+
     }
 
     .alar h4 {
