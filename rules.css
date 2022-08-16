@@ -438,8 +438,9 @@ header nav {
 
 .Laptopwrite button {
     background-color: #5558DB;
+    outline: 2px solid blue;
     border: none;
-    padding: 10px 76px;
+    padding: 20px 76px;
     color: #fff;
     font-family: Montserrat;
     font-size: 18px;
@@ -451,7 +452,7 @@ header nav {
 .Laptopwrite button:hover {
     background-color: white;
     outline: 2px solid blue;
-    padding: 10px 76px;
+    padding: 20px 76px;
     color: blue;
     font-family: Montserrat;
     font-size: 18px;
@@ -507,8 +508,7 @@ header nav {
 .Mapwrite button {
     background-color: #5558DB;
     border: none;
-    padding: 10px 76px;
-    /* width: 300px; */
+    padding: 20px 76px;
     color: #fff;
     font-family: Montserrat;
     font-size: 18px;
@@ -520,8 +520,7 @@ header nav {
 .Mapwrite button:hover {
     background-color: #fff;
     border: 2px solid blue;
-    padding: 10px 76px;
-    /* width: 300px; */
+    padding: 20px 76px;
     color: blue;
     font-family: Montserrat;
     font-size: 18px;
@@ -1161,6 +1160,31 @@ hr {
         margin-left: 10%;
     }
 
+    .Mapwrite button {
+        background-color: #5558DB;
+        border: none;
+        padding: 20px 76px;
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 13px;
+        outline: 2px solid #5558DB;
+    }
+
+    .Mapwrite button:hover {
+        background-color: #fff;
+        padding: 20px 76px;
+        outline: 2px solid #5558DB;
+        color: #5558DB;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 13px;
+    }
+
 
     .Map {
         display: block;
@@ -1171,8 +1195,9 @@ hr {
 
     .Mapwrite {
         width: 80%;
-
     }
+
+
 
     .Mapwrite h3 {
         text-align: center;
@@ -1195,6 +1220,14 @@ hr {
         position: relative;
         top: 0;
         left: 0;
+    }
+
+    .price .plex {
+        padding-top: 20%;
+        font-family: Montserrat;
+        font-size: 33px;
+        font-weight: 700;
+        text-align: center;
     }
 
     .priceholder {
